@@ -26,6 +26,11 @@ h3 {
   color: #DA3E3C !important;
 }
 
+h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .c-masthead-img img {
   width: 20%;
   border-radius: 1300px;
@@ -47,7 +52,7 @@ h3 {
   color: #B46E6E;
   text-decoration: none;
   background-color: #E5D2D4;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 15px;
 }
 .c-social-icon__list a:hover {
@@ -110,20 +115,30 @@ h3 {
   margin-right: 8rem;
 }
 
-.c-projects-wrap {
-  display: inline-flex;
-  border-bottom: 1px solid #3B494A;
+.c-qualifications-wrap {
   padding-bottom: 2%;
   margin-bottom: 2%;
 }
 
+.c-projects-wrap {
+  display: inline-flex;
+}
+
 .c-projects-item {
-  margin-bottom: 2%;
   display: inline-block;
   width: 33.333333%;
 }
 .c-projects-item img {
-  width: 33.333333%;
+  width: 60%;
+}
+
+.c-project-more {
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+}
+.c-project-more p {
+  font-size: 14px;
+  opacity: 0.8;
 }
 
 .c-references-list {
